@@ -1,0 +1,16 @@
+#include "cantor.dtsi"
+
+&default_transform {
+    col-offset = <6>;
+};
+
+&kscan0 {
+    col-gpios
+        = <&blackpill 14 GPIO_ACTIVE_HIGH>
+        , <&blackpill 15 GPIO_ACTIVE_HIGH>
+        , <&blackpill 18 GPIO_ACTIVE_HIGH>
+        , <&blackpill 19 GPIO_ACTIVE_HIGH>
+        , <&blackpill 20 GPIO_ACTIVE_HIGH>
+        , <&blackpill 21 GPIO_ACTIVE_HIGH>
+        ;
+};

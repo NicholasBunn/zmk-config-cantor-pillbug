@@ -20,6 +20,6 @@
 ---
 include:
   - board: pillbug
-    shield: corne_left
+    shield: cantor_left
   - board: pillbug
-    shield: corne_right
+    shield: cantor_right
