@@ -1,5 +1,1 @@
 #include "cantor.dtsi"
-
-&default_transform {
-    col-offset = <21>;
-};
